@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* min-width: 990px;
+  max-width: 1200; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Space Mono;
+  color: aliceblue;
+  margin: auto;
+  text-align: center;
+  margin: 1em auto;
+  height: 100%;
+  width: 100%;
+  background: #141d30;
+}
+
+h3 {
+  margin-bottom: 1em;
+}
+
+/* .wrapper {
+  display: inline-block;
+} */
+
+.box-btn {
+  border: 0.1em solid #1f2a48;
+  padding: 0.5em;
+  background: #1f2a48;
+  margin: 0em 29em;
+  border-radius: 0.6em;
+  box-shadow: 6px 2px 35px -1px rgba(31, 42, 72, 0.82);
+  -webkit-box-shadow: 6px 2px 35px -1px rgba(31, 42, 72, 0.82);
+  -moz-box-shadow: 6px 2px 35px -1px rgba(31, 42, 72, 0.82);
+}
+
+#btn {
+  margin: 2em 0em;
+  background: #0079fe;
+  color: white;
+  padding: 0.8em 1em;
+  border: 0.1em solid #1f2a48;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+#searchInput {
+  font-family: Space Mono;
+  font-weight: 400;
+  color: #fff;
+  width: 24em;
+  height: 2em;
+  border-radius: 0.4em;
+  border: 1px solid #1f2a48;
+  outline: none;
+  background: #1f2a48;
+}
+
+#searchbtn {
+  background: #0079fe;
+  color: white;
+  padding: 0.8em 1em;
+  border: 1px solid #1f2a48;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+#searchbtn:hover {
+  background: #383cc1;
+}
+
+#btn:hover {
+  background: #383cc1;
+}
